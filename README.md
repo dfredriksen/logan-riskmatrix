@@ -1,6 +1,9 @@
 # logan-riskmatrix
 A risk matrix heatmap for Google Charts that calculates the total number of risks in each category based on likelihood/impact
 
+Copyright 2020 Nathaniel Logan.
+Author: Daniel Fredriksen & Nathaniel Logan
+
 ## Google Charts
 
 For information on how to use Google Charts API, visit the (Google Charts documentation)[https://developers.google.com/chart/interactive/docs/quick_start].

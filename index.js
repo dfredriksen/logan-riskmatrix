@@ -92,7 +92,7 @@ logan.RiskMatrix.prototype.draw = function(data, options) {
       html.push(`<td rowspan="${categories}" class="logan-riskmatrix-y-label"><span class="logan-riskmatrix-y-label-text">${xAxisLabel}</span></td>`)
 
     for(var col = 0; col < categories; col++) {
-      var cellScore = (col+1)*(categories - row+1)
+      var cellScore = (col+1)*(categories - row)
       var colorIndex = 0
       colorIndex = col
       if(col === (categories-1) && row > 0)
