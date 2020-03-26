@@ -73,7 +73,7 @@ logan.RiskMatrix.prototype.draw = function(data, options) {
     .logan-riskmatrix-y-label-text {
       transform: rotate(-90deg);
       display: block;
-      margin-top: 200px;
+      margin-top: 247px;
       font-weight: bold;
     }
     .logan-riskmatrix-x-label {
