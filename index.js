@@ -57,13 +57,14 @@ logan.RiskMatrix.prototype.draw = function(data, options) {
       text-align: center;
       font-weight: bold;
       border: solid 1px black;
+      font-size: 2em;
     }
 
     .logan-riskmatrix-header th {
-      height: 10px;
+      height: 30px;
     }
     .logan-riskmatrix-y-label {
-      max-width: 20px;
+      max-width: 40px;
       overflow: visible;
       white-space: nowrap;
       vertical-align: middle;
@@ -73,10 +74,12 @@ logan.RiskMatrix.prototype.draw = function(data, options) {
       transform: rotate(-90deg);
       display: block;
       margin-top: 200px;
+      font-weight: bold;
     }
     .logan-riskmatrix-x-label {
       text-align:center;
-      height: 20px;
+      height: 40px;
+      font-weight: bold;
     }
   </style>`)
   html.push('<table class="logan-riskmatrix">')
